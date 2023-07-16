@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://ladieskitty.net/wp-content/uploads/2014/04/odd_or_even_party_game.jpg" type="image/x-icon">
+    <title>Even or Odd Game | Entertainment</title>
+</head>
+<body>
+    <script src="design.js"></script>
+    <h1 >( 🤜Even or Odd 🤛 )</h1>
+    <div id="player">
+        <h2>Player 1</h2>
+        <h2>Player 2</h2>
+    </div>
+    <div class="container">
+        <div class="points">
+            <div class='run' id="Player1">
+                <div id="p1"></div>
+                <div id="p1"></div>
+                <div id="p1"></div>
+                <div id="p1"></div>
+                <div id="p1"></div>
+            </div>
+            <!-- Score -->
+            <div class="tpoint">
+                <div id="c1">0</div>
+                <div id="c2">-</div>
+                <div id="c3">0</div>
+            </div>
+            <div id="Player2">
+                <div id="p2"></div>
+                <div id="p2"></div>
+                <div id="p2"></div>
+                <div id="p2"></div>
+                <div id="p2"></div>
+            </div>
+        </div>
+    </div>
+    <div id="res">Wait for the Result</div>
+    <div id="down">
+        <button type="submit" id="sub" onclick="playEvenOdd()">PLAY</button>
+        <button type="submit" id="sub" onclick="window.location.reload()">REFRESH</button>
+    </div>
+</body>
+</html>

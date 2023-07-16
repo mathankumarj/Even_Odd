@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+body{
+    background-image: url(boxmatch.jpg);
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Raleway",sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 42px;
+}
+#player{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.container{
+    /* border: 5px solid rgb(0, 0, 0); */
+    /* border-radius: 25px; */
+    height: 200px;
+    width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+#p1{
+    height: 40px;
+    width: 40px;
+    border: 3px solid aqua;
+    border-radius: 80px;
+    margin-left: 5px;
+}
+#Player1{
+    position: fixed;
+    display: flex;
+    padding-top: 14%;
+    margin-left: -27%;
+    margin-top: -8%;
+}
+#p2{
+    height: 40px;
+    width: 40px;
+    border: 3px solid aqua;
+    border-radius: 80px;
+    margin-left: 5px;
+}
+#Player2{
+    position: fixed;
+    display: flex;
+    padding-top: 14%;   
+    width: 250px;
+    margin-left: 10%;
+    margin-top: -8%;
+      
+}
+
+.points{
+    
+    display: flex;
+}
+
+#c1{
+    color: antiquewhite;
+    margin: auto;
+    font-size: 30px;       
+}
+#c2{
+    color: antiquewhite;
+    margin: auto;
+    font-size: 30px;       
+}
+#c3{
+    color: antiquewhite;
+    margin: auto;
+    font-size: 30px;       
+}
+.tpoint{
+    width: 20px;
+    display: flex;
+    margin-left: 20%;
+    
+    
+}
+
+#down{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+#sub{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(136, 167, 245);
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    font-size: medium;
+}
+
+#sub:hover{
+    background-color: rgba(240, 149, 2, 0.789);
+    color: whitesmoke;
+}
+#res{
+    color: rgb(255, 255, 255);
+    height: 45px;
+    width: 400px;
+    /* border: 4px solid black; */
+    /* border-radius: 25px; */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    font-size: 28px;
+    font-weight: 00;
+}
